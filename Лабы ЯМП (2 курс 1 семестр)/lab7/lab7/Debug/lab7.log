@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  lab7.cpp
+c:\00_дичь__00\visual studio\ямп лабы\lab7\lab7\lab7.cpp(74): warning C4715: Value: значение возвращается не при всех путях выполнения
+  lab7.vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\ЯМП лабы\lab7\Debug\lab7.exe

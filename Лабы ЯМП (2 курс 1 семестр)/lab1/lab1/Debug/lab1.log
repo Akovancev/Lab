@@ -1,0 +1,4 @@
+﻿  lab1.cpp
+c:\00_дичь__00\visual studio\lab1\lab1\lab1.cpp(71): warning C4018: <: несоответствие типов со знаком и без знака
+c:\00_дичь__00\visual studio\lab1\lab1\lab1.cpp(106): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab1.vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\lab1\Debug\lab1.exe

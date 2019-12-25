@@ -1,0 +1,3 @@
+﻿  lab2_bin.cpp
+c:\00_дичь__00\visual studio\ямп лабы\lab2_bin\lab2_bin\lab2_bin.cpp(77): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab2_bin.vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\ЯМП лабы\lab2_bin\Debug\lab2_bin.exe
