@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  lab2_bulgakov (binary).cpp
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab2_bulgakov (binary)\lab2_bulgakov (binary)\lab2_bulgakov (binary).cpp(66): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab2_bulgakov (binary).vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\Чужие лабы\ЯМП ЯРИК\lab2_bulgakov (binary)\Debug\lab2_bulgakov (binary).exe

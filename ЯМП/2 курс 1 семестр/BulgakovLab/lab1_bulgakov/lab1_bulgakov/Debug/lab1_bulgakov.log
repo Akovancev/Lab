@@ -1,0 +1,6 @@
+﻿  lab1_bulgakov.cpp
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab1_bulgakov\lab1_bulgakov\lab1_bulgakov.cpp(81): warning C4018: <: несоответствие типов со знаком и без знака
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab1_bulgakov\lab1_bulgakov\lab1_bulgakov.cpp(102): warning C4018: <: несоответствие типов со знаком и без знака
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab1_bulgakov\lab1_bulgakov\lab1_bulgakov.cpp(127): warning C4018: <: несоответствие типов со знаком и без знака
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab1_bulgakov\lab1_bulgakov\lab1_bulgakov.cpp(147): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab1_bulgakov.vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\Чужие лабы\ЯМП ЯРИК\lab1_bulgakov\Debug\lab1_bulgakov.exe

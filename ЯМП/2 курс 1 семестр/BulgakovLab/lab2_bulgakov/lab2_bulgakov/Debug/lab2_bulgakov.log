@@ -1,0 +1,3 @@
+﻿  lab2_bulgakov.cpp
+c:\00_дичь__00\visual studio\чужие лабы\ямп ярик\lab2_bulgakov\lab2_bulgakov\lab2_bulgakov.cpp(78): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab2_bulgakov.vcxproj -> C:\00_ДИЧЬ__00\VISUAL STUDIO\Чужие лабы\ЯМП ЯРИК\lab2_bulgakov\Debug\lab2_bulgakov.exe

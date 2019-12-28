@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab6_bulgakov", "lab6_bulgakov\lab6_bulgakov.vcxproj", "{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Debug|x64.ActiveCfg = Debug|x64
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Debug|x64.Build.0 = Debug|x64
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Debug|x86.ActiveCfg = Debug|Win32
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Debug|x86.Build.0 = Debug|Win32
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Release|x64.ActiveCfg = Release|x64
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Release|x64.Build.0 = Release|x64
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Release|x86.ActiveCfg = Release|Win32
+		{A40C1C8B-F9A3-4CC6-8599-4AEF32BC6901}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {484F29DC-F943-4632-A283-84623B2E87B0}
+	EndGlobalSection
+EndGlobal
