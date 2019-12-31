@@ -16,9 +16,15 @@ void Painting(int st, int*& dop, int** a,int n)
 	}
 	for (int i = 0; i < n; i++)
 	{
-		if ((a[st][i] != 0) && (dop[i] == curr_color))
+		if (dop[i] == curr_color && i != st)
 		{
-			dop[i] = 0;
+			for (int j = 0; j < n; j++)
+			{
+				if ((a[i][j] == 1) && (dop[j] == curr_color))
+				{
+					dop[j] = 0;
+				}
+			}
 		}
 	}
 }

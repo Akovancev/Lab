@@ -3,11 +3,6 @@
 
 using namespace std;
 
-bool Check(int k)
-{
-	return k % 2;
-}
-
 void Merge(int*& arr, int first, int last, int middle)
 {
 	int left = first;
@@ -35,20 +30,20 @@ void Merge(int*& arr, int first, int last, int middle)
 }
 
 
-void MergeSort(int*& arr, int size, int step, bool check)
+void MergeSort(int*& arr, int size, int step)
 {
 	int i;
 	for (i = 0; i <= size - step; i += step)
 	{
 		Merge(arr, i, i + step - 1, i + step / 2 - 1);
 	}
-	if (check && (size / step) % 2 != 0)
+	if ((size / step) % 2 != 0)
 	{
 		Merge(arr, i - step, size - 1, i - 1);
 	}
 	if (size >= step)
 	{
-		MergeSort(arr, size, step * 2, check);
+		MergeSort(arr, size, step * 2);
 	}
 }
 
@@ -67,8 +62,7 @@ int main()
 		cin >> arr[i];
 	}
 
-	
-	MergeSort(arr, n*k, 2*n, Check(k));
+	MergeSort(arr, n*k, 2*n);
 
 	for (int i = 0; i < n*k; i++)
 	{
