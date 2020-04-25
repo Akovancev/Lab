@@ -82,8 +82,6 @@ void Perestanovki(int *a, int *dop, int k, int **table)
 		}
 }
 
-
-// ПРОГРАММА НАЧИНАЕТСЯ ЗДЕСЬ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 int main()
 {
 	setlocale(0, "");

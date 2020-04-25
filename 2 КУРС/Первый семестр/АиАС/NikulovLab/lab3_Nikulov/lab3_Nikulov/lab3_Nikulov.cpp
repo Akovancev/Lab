@@ -7,6 +7,7 @@ using namespace std;
 bool check_print = false;
 stack <int> cycle;
 
+// Функция считывания графа в виде матрицы смежности
 int** Input(int** a, int n, int l)
 {
 	for (int i = 0; i < n; i++)
@@ -29,6 +30,7 @@ int** Input(int** a, int n, int l)
 	return a;
 }
 
+// Функция вывода цикла, если он найден
 void Print()
 {
 	while (!cycle.empty())
@@ -38,6 +40,13 @@ void Print()
 	}
 }
 
+// Функция для обхода в глубину
+/*
+	Берем каждую вершину по порядку и отмечаем ее как посещенную, затем проходим по всем вершинам смежным с ней
+	и если очередная смежная вершина является посещенной, то мы нашли цикл, иначе продолжаем поиск,
+	в конце обьявляем изначальную вершину как непосещенную
+	Для сохранения самого цикла используем стек
+*/
 bool Dfs(int st, int** a, int* dop, int n)
 {
 	dop[st] = 1;
@@ -63,6 +72,7 @@ bool Dfs(int st, int** a, int* dop, int n)
 	return false;
 }
 
+// Основная функция для выполнения задачи
 void Check(int** a, int n)
 {
 	int* dop = new int[n]; 
